@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Data Science & Machine Learning Enthusiast</p>
+                <h1>Hi, I'm <span>Om Mane</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+<div id="about" class="fade-in">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images_om/profile.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m Om Mane, currently pursuing my M.Tech in Artificial Intelligence at IIIT Pune. I have a strong passion for solving real-world problems using data-driven solutions and intelligent systems. My experience spans across machine learning, natural language processing, and deep learning, with hands-on exposure to tools like Python, TensorFlow, PyTorch, and Hugging Face Transformers. I’ve worked on impactful projects like hate speech detection using BERT and real-time chat analysis, along with scraping and structuring EV battery data from unorganized sources. I enjoy turning complex datasets into meaningful insights using SQL, Power BI, and other data visualization tools. I'm particularly drawn to applying AI in fintech, regulation tech, and social impact domains. Curious, collaborative, and constantly learning — I aim to contribute to innovative teams building the future with AI.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                </div>
+                <div class="tab-contents active-tabs" id="education">
+                    <ul>
+                        <li><span>M.Tech CSE (AI) 2024 - 2026</span><br>Indian Institute of Information Technology Pune</li>
+                        <li><span>B.E IT 2020 - 2024</span><br>University Of Mumbai</li>
+                        <li><span>HSC Science 2018 - 2020</span><br>KV Pendharkar College</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Data Scientist Intern March 2025 - Present</span><br>TapFin Pvt Ltd</li>
+                        <li><span>AI/ML Intern Jan 2025 - Feb 2025</span><br>Edunet Foundation</li>
+                        <li><span>Data Science Intern Nov 2024 - Dec 2024</span><br>Cognifyz Technologies</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certifications">
+                    <ul>
+                        <li><span>Microsoft Certified Azure Data Scientist</span><br>Coursera</li>
+                        <li><span>Python Essentials I & II</span><br>Cisco Networking Academy</li>
+                        <li><span>5 ★ SQL</span><br>HackerRank</li>
+                        <li><span>Salesforce Certified AI Associate</span><br>Salesforce</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Skills Section -->
+<div id="skills" class="fade-in">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="skills-list">
+            <div class="skill-card">
+                <img src="Images_om/python.png" alt="Python">
+                <h2>Python</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/sql.png" alt="SQL">
+                <h2>SQL</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/pandas.png" alt="Pandas">
+                <h2>Pandas</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/numpy.png" alt="Numpy">
+                <h2>Numpy</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/matplotlib.png" alt="Matplotlib">
+                <h2>Matplotlib</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/vscode.png" alt="VS Code">
+                <h2>VS Code</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/jupyter.png" alt="Jupyter Notebook">
+                <h2>Jupyter</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/scikit.png" alt="Sci-Kit Learn">
+                <h2>Sci-Kit Learn</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/pytorch.png" alt="PyTorch">
+                <h2>PyTorch</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/excel.png" alt="Excel">
+                <h2>Excel</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/azure.png" alt="Azure">
+                <h2>Azure</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/powerpoint.png" alt="PowerPoint">
+                <h2>PowerPoint</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/langchain.png" alt="LangChain">
+                <h2>LangChain</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/tensorflow.png" alt="TensorFlow">
+                <h2>TensorFlow</h2>
+            </div>
+            <div class="skill-card">
+                <img src="Images_om/powerbi.png" alt="PowerBI">
+                <h2>PowerBI</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="projects" class="fade-in">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div class="project-card">
+                <img src="Images_om/real_estate.png" alt="Project 1">
+                <h3>Real Estate Data Science Application</h3>
+                <p>A real estate price prediction and recommendation system using data from 99acres.com, combining EDA, ML models, and personalized property suggestions.</p>
+                <a href="https://github.com/MsdMane7/Real-Estate-Price-Prediction-and-Recommender-System" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="Images_om/ai_assistant.png" alt="Project 2">
+                <h3>AI Desktop Assistant Using Python</h3>
+                <p>An AI-powered desktop assistant built with Python that uses NLP and machine learning to execute user commands, manage tasks, and boost productivity.</p>
+                <a href="https://github.com/MsdMane7/ai-desktop-assistant-using-python" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="Images_om/whatsapp.png" alt="Project 3">
+                <h3>WhatsApp Chat Sentiment Analyzer</h3>
+                <p>The WhatsApp Chat Analyzer leverages NLP to extract insights from chats through message frequency, word frequency, and sentiment analysis.</p>
+                <a href="https://github.com/MsdMane7/whatsapp-chat-sentiment-analyzer" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="Images_om/pose.png" alt="Project 4">
+                <h3>Human Pose Estimation Using Machine Learning</h3>
+                <p>A Human Pose Estimation system using CNNs for real-time body movement tracking to enhance training in yoga and sports.</p>
+                <a href="https://github.com/MsdMane7/human-pose-estimation-using-ml" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="fade-in">
+    <div class="container contact-section">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i> ommane2002@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 9969387515</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ommane24/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/om_mane_24/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://forms.gle/your-google-form-link" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
+        </div>
+        <a href="Om_Mane_Resume_DS.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form action="https://formsubmit.co/ommane2002@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+          
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          
+      </div>
+    </div>
+  </div>
+  
+
+  <script>
+    // Intersection Observer for scroll animations
+    const faders = document.querySelectorAll('.fade-in');
+
+    const appearOptions = {
+        threshold: 0.2,
+        rootMargin: "0px 0px -50px 0px"
+    };
+
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+        });
+    }, appearOptions);
+
+    faders.forEach(fader => appearOnScroll.observe(fader));
+
+    // Tabs logic
+    const tabLinks = document.querySelectorAll('.tab-links');
+    const tabContents = document.querySelectorAll('.tab-contents');
+
+    function opentab(tabname) {
+        tabLinks.forEach(link => link.classList.remove('active-link'));
+        tabContents.forEach(tab => tab.classList.remove('active-tabs'));
+
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tabs');
+    }
+</script>
+
+
+</body>
+</html>
